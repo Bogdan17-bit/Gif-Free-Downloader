@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Gif Free Downloader</string>
+    <string name="download_ua_lang">Завантажити</string>
+    <string name="tag_angry">#Angry</string>
+    <string name="tag_scared">#Scared</string>
+    <string name="tag_happy">#Happy</string>
+    <string name="tag_birthday">#Birthday</string>
+    <string name="tag_love">#Love</string>
+    <string name="tag_trends">#Trends</string>
+    <string name="tag_surprised">#Surprised</string>
+</resources>
