@@ -1,17 +1,12 @@
 package com.example.giffreedownloader;
 
-import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
-import android.content.Context;
 import android.content.Intent;
 import android.content.res.Configuration;
-import android.net.ConnectivityManager;
-import android.net.NetworkInfo;
 import android.os.Bundle;
-import android.text.Layout;
 import android.util.Pair;
 import android.view.Gravity;
 import android.view.KeyEvent;
@@ -23,8 +18,6 @@ import android.widget.FrameLayout;
 import android.widget.HorizontalScrollView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.OverScroller;
-import android.widget.ScrollView;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
@@ -34,17 +27,12 @@ import java.net.MalformedURLException;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
-import com.example.giffreedownloader.api.data.model.GifsSaved;
 import com.example.giffreedownloader.error.ErrorHandler;
 import com.example.giffreedownloader.systems.controller.DisplayProperty;
 import com.example.giffreedownloader.api.api.settings.NetworkService;
 import com.example.giffreedownloader.api.data.model.Gif;
 import com.example.giffreedownloader.api.data.model.JSONResponse;
 import com.example.giffreedownloader.systems.controller.KeyboardProperty;
-import com.example.giffreedownloader.systems.controller.NetworkProperty;
-
-import org.intellij.lang.annotations.JdkConstants;
-import org.w3c.dom.Text;
 
 import java.io.IOException;
 import java.util.List;
